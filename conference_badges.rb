@@ -19,7 +19,7 @@ def assign_rooms(attendees)
   nuattendees = []
   counter = 1
   attendees.each do |name|
-    nuattendees.push("Hello, #{name}! You'll be assigned to room #{counter}")
+    nuattendees.push("Hello, #{name}! You'll be assigned to room #{counter}.")
     counter +=1
   end
   return nuattendees
